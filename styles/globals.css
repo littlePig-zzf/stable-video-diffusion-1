@@ -11,16 +11,21 @@ input {
   @apply py-2;
 }
 
-.border-hairline {
-  @apply border border-black border-opacity-10;
+
+input:focus-visible {
+  outline-color: transparent
 }
 
 .button {
   @apply bg-black text-white rounded-r-md inline-block px-5 py-3;
 }
 
+.download {
+  @apply bg-white border-black border-solid border-2 text-black rounded-md inline-block px-5 py-3 mt-4;
+}
+
 .image-wrapper {
-  width: 100%;
+  width: 50%;
   aspect-ratio: 1 / 1;
   position: relative;
 }
